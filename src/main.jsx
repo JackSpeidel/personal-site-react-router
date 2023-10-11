@@ -7,7 +7,9 @@ import {
 import './main.scss'
 import ErrorPage from "./error-page";
 import Root from "./routes/root/root";
-import Index from "./routes/index/index"
+import Index from "./routes/index/index";
+import AboutMe from "./routes/aboutme/aboutme";
+import Projects from "./routes/projects/projects";
 
 
 const router = createBrowserRouter([
@@ -19,9 +21,19 @@ const router = createBrowserRouter([
             {
                 errorElement: <ErrorPage />,
                 children: [
-                    { index: true, element: <Index /> }
+                    { index: true, element: <Index /> },
+                    {
+                        path: "aboutme",
+                        element: <AboutMe />,
+
+                    },
+                    {
+                        path: "projects",
+                        element: <Projects />,
+
+                    },
                 ]
-            }    
+            },
         ]
     }
 ])

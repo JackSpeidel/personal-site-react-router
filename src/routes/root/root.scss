@@ -1,3 +1,9 @@
+@use "../../styles/vars" as *;
+
+body {
+    color: $white;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
