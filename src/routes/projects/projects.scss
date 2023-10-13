@@ -1,6 +1,13 @@
+@use "../../styles/vars" as *;
+
 .projects {
     display: flex;
     flex-direction: column;
     padding: 1rem 2rem;
     text-align: center;
+
+    &__heading {
+        font-size: $page-heading;
+    }
+
 }

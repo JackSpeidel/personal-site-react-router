@@ -5,7 +5,7 @@ const Index = () => {
   return (
     <div className="index">
             <motion.h1 className="index__heading">Welcome</motion.h1>
-            <h3 className="index__body-text">Welcome to the digital realm of Jack Speidel. As you navigate this space, you'll unearth a collection of projects that reflect my journey in the ever-evolving world of technology. Each piece is a testament to the passion, dedication, and expertise I bring to the table. I invite you to delve in, explore, and discover the stories woven into every line of code and design element. Enjoy the exploration!</h3>
+            <h3 className="index__body-text">Welcome to Jack Speidel's online portfolio. Here, you'll find a selection of projects that highlight my experiences and skills in the tech industry. Each project showcases the dedication and knowledge I've applied over the years. Feel free to browse, learn, and get a sense of what I bring to the table. Thanks for stopping by!</h3>
     </div>
   )
 }
