@@ -1,0 +1,33 @@
+$eczar-font-path: "../src/assets/fonts" ;
+
+
+@font-face {
+    font-family: 'Eczar';
+    src: url($eczar-font-path + "/Eczar-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src: url($eczar-font-path + "/Eczar-ExtraBold.ttf") format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src: url($eczar-font-path + "/Eczar-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src: url($eczar-font-path + "/Eczar-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Eczar';
+    src: url($eczar-font-path + "/Eczar-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+}
+

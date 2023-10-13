@@ -1,24 +1,24 @@
 @use "../../styles/vars" as *;
+@use "../../styles//fonts" as *;
+
+html {
+    height: 100%;
+}
 
 body {
     color: $white;
+    font-family: 'Eczar', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
 
-    &__logo {
-        opacity: 1;
-    }
 
-    &__links {
-        display: flex;
-    }
+.app {
 
-    &__about-me {
-        padding-right: 2rem;
+    &__footer {
+        position: absolute;
+        bottom: 0;
     }
 }

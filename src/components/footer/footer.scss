@@ -1,0 +1,28 @@
+@use "../../styles/vars" as *;
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 0.8rem;
+
+    &__text {
+        font-weight: 600;
+    }
+
+    &__links {
+        color: inherit;
+        font-weight: 800;
+        text-decoration: none;
+        justify-content: center;
+
+        &:hover {
+            color: $blue;
+        }
+    }
+
+    &__button {
+        width: 10rem;
+        background-color: inherit;
+    }
+}

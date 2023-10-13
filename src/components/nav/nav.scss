@@ -1,0 +1,23 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+
+    &__logo {
+        opacity: 1;
+    }
+
+    &__links {
+        display: flex;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+#about-me {
+    padding-right: 2rem;
+}

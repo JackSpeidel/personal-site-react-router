@@ -1,8 +1,8 @@
 import './nav.scss'
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import stars from "../../assets/svg/stars.svg";
-import light from "../../assets/svg/light.svg";
+// import stars from "../../assets/svg/stars.svg";
+// import light from "../../assets/svg/light.svg";
 
 const Nav = () => {
 
@@ -35,7 +35,7 @@ const Nav = () => {
                     viewBox="0 0 1024 752"
                     enable-background="new 0 0 1024 752"
                     xml: space="preserve"
-                >
+                    >
                     <motion.path
                         fill="#fff1eb"
                         stroke="#fff1eb"
@@ -225,11 +225,19 @@ const Nav = () => {
                 </motion.svg>
             </Link>
             <div className="nav__links">
-                <Link to={'/aboutme'}>
-                    <img className="svg nav__about-me" src={stars} alt="about-me link icon" />
+                <Link id="about-me" to={'/aboutme'} className="nav__link">
+                    {/* <img className="svg nav__about-me" src={stars} alt="about-me link icon" /> */}
+                    <motion.p 
+                    className="nav__link-text"
+                    whileHover={{ scale: 1.3, y: -5, color: "#a0d8fd" }}
+                    >about me</motion.p>
                 </Link>
-                <Link to={'/projects'}>
-                    <img className="nav__blog" src={light} alt="blog link icon" />
+                <Link id="projects" to={'/projects'} className="nav__link">
+                    {/* <img className="nav__blog" src={light} alt="blog link icon" /> */}
+                    <motion.p
+                        className="nav__link-text"
+                        whileHover={{ scale: 1.3, y: -5, color: "#a0d8fd" }}
+                    >projects</motion.p>
                 </Link>
             </div>
         </div>
