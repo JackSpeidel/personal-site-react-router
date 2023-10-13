@@ -13,4 +13,13 @@
         text-decoration: none;
         color: inherit;
     }
+
+    &__links-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__body-text {
+        padding: 0.5rem 0;
+    }
 }

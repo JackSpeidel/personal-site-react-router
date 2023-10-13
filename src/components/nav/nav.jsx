@@ -229,14 +229,14 @@ const Nav = () => {
                     {/* <img className="svg nav__about-me" src={stars} alt="about-me link icon" /> */}
                     <motion.p 
                     className="nav__link-text"
-                    whileHover={{ scale: 1.3, y: -5, color: "#a0d8fd" }}
+                    whileHover={{ scale: 1.25, y: -3, color: "#a0d8fd" }}
                     >about me</motion.p>
                 </Link>
                 <Link id="projects" to={'/projects'} className="nav__link">
                     {/* <img className="nav__blog" src={light} alt="blog link icon" /> */}
                     <motion.p
                         className="nav__link-text"
-                        whileHover={{ scale: 1.3, y: -5, color: "#a0d8fd" }}
+                        whileHover={{ scale: 1.25, y: -3, color: "#a0d8fd" }}
                     >projects</motion.p>
                 </Link>
             </div>
