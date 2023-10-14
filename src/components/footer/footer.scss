@@ -1,10 +1,11 @@
 @use "../../styles/vars" as *;
 
 .footer {
-    // display: flex;
+    display: flex;
     flex-direction: column;
     padding: 2rem;
     font-size: 0.8rem;
+    margin-top: auto;
 
     &__text {
         font-weight: 600;

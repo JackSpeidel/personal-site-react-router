@@ -10,11 +10,17 @@ body {
     font-family: 'Eczar', sans-serif;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
 }
 
 .app {
+
+    &__nav {
+        position: fixed;
+        top: 0;
+    }
+
     &__footer {
+        margin-top: auto;
         position: fixed;
         left: 0;
         bottom: 0;
