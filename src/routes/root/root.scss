@@ -1,11 +1,8 @@
 @use "../../styles/vars" as *;
 @use "../../styles//fonts" as *;
 
-html {
-    height: 100%;
-}
 
-body {
+html, body {
     color: $white;
     font-family: 'Eczar', sans-serif;
     display: flex;
