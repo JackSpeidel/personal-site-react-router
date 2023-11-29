@@ -7,6 +7,13 @@ html, body {
     font-family: 'Eczar', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    min-height: calc(100vh - $footer-height);
+}
+
+body {
+    padding-bottom: $footer-height;
+    position: relative;
 }
 
 .app {
@@ -14,13 +21,5 @@ html, body {
     &__nav {
         position: fixed;
         top: 0;
-    }
-
-    &__footer {
-        margin-top: auto;
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
     }
 }

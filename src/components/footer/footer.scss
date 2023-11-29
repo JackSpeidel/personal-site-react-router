@@ -1,14 +1,19 @@
 @use "../../styles/vars" as *;
 
 .footer {
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    font-size: 0.8rem;
-    margin-top: auto;
+    height: $footer-height;
+    line-height: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align:center;
 
     &__text {
         font-weight: 600;
+        font-size: 0.85rem;
+        padding: 1rem;
     }
 
     &__links {
